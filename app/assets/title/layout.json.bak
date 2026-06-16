@@ -1,0 +1,219 @@
+{
+  "items": [
+    {
+      "id": "bg",
+      "key": "bg",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 800,
+      "cover": true
+    },
+    {
+      "id": "cloud1",
+      "key": "cloud1",
+      "x": 166,
+      "y": 39,
+      "w": 111,
+      "h": 69
+    },
+    {
+      "id": "cloud2",
+      "key": "cloud2",
+      "x": 1107,
+      "y": 251,
+      "w": 113,
+      "h": 65
+    },
+    {
+      "id": "cloud3",
+      "key": "cloud3",
+      "x": 935,
+      "y": 51,
+      "w": 90,
+      "h": 55
+    },
+    {
+      "id": "cloud4",
+      "key": "cloud4",
+      "x": 83,
+      "y": 352,
+      "w": 75,
+      "h": 45
+    },
+    {
+      "id": "star2",
+      "key": "star",
+      "x": 605,
+      "y": 50,
+      "w": 30,
+      "h": 30
+    },
+    {
+      "id": "star3",
+      "key": "star",
+      "x": 720,
+      "y": 60,
+      "w": 26,
+      "h": 26
+    },
+    {
+      "id": "star4",
+      "key": "star",
+      "x": 460,
+      "y": 280,
+      "w": 22,
+      "h": 22
+    },
+    {
+      "id": "star6",
+      "key": "star",
+      "x": 200,
+      "y": 380,
+      "w": 20,
+      "h": 20
+    },
+    {
+      "id": "deco_mirror_L",
+      "key": "mirror",
+      "x": 132,
+      "y": 145,
+      "w": 110,
+      "h": 110
+    },
+    {
+      "id": "deco_mirror_R",
+      "key": "mirror_arrow",
+      "x": 1000,
+      "y": 140,
+      "w": 110,
+      "h": 110
+    },
+    {
+      "id": "logo",
+      "key": "logo",
+      "x": 390,
+      "y": 36,
+      "w": 503,
+      "h": 338
+    },
+    {
+      "id": "toolbox",
+      "key": "toolbox",
+      "x": 34,
+      "y": 592,
+      "w": 139,
+      "h": 120
+    },
+    {
+      "id": "char_red",
+      "key": "char_red",
+      "x": 978,
+      "y": 342,
+      "w": 234,
+      "h": 387
+    },
+    {
+      "id": "stone_deco",
+      "key": "stone",
+      "x": 262,
+      "y": 248,
+      "w": 80,
+      "h": 80
+    },
+    {
+      "id": "tool_driver",
+      "key": "tool_driver",
+      "x": 895,
+      "y": 679,
+      "w": 134,
+      "h": 40
+    },
+    {
+      "id": "btn_settings",
+      "key": "btn_settings",
+      "x": 61,
+      "y": 31,
+      "w": 87,
+      "h": 95,
+      "interactive": "SETTINGS"
+    },
+    {
+      "id": "btn_scoreboard",
+      "key": "btn_scoreboard",
+      "x": 1136,
+      "y": 31,
+      "w": 113,
+      "h": 98,
+      "interactive": "SCOREBOARD"
+    },
+    {
+      "id": "btn_easy",
+      "key": "btn_easy",
+      "x": 330,
+      "y": 420,
+      "w": 200,
+      "h": 130,
+      "interactive": "EASY"
+    },
+    {
+      "id": "char_blue",
+      "key": "char_blue",
+      "x": 109,
+      "y": 342,
+      "w": 265,
+      "h": 378
+    },
+    {
+      "id": "tool_wrench",
+      "key": "tool_wrench",
+      "x": 312,
+      "y": 649,
+      "w": 91,
+      "h": 54
+    },
+    {
+      "id": "btn_normal",
+      "key": "btn_normal",
+      "x": 540,
+      "y": 420,
+      "w": 210,
+      "h": 130,
+      "interactive": "NORMAL"
+    },
+    {
+      "id": "btn_hard",
+      "key": "btn_hard",
+      "x": 760,
+      "y": 420,
+      "w": 200,
+      "h": 130,
+      "interactive": "HARD"
+    },
+    {
+      "id": "btn_start",
+      "key": "btn_start",
+      "x": 480,
+      "y": 579,
+      "w": 320,
+      "h": 100,
+      "interactive": "START"
+    },
+    {
+      "id": "star1",
+      "key": "star",
+      "x": 326,
+      "y": 58,
+      "w": 49,
+      "h": 37
+    },
+    {
+      "id": "star5",
+      "key": "star",
+      "x": 204,
+      "y": 252,
+      "w": 45,
+      "h": 45
+    }
+  ]
+}

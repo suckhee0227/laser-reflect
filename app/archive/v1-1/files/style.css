@@ -1,0 +1,51 @@
+:root {
+  color-scheme: light only;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  outline: none;
+  overflow: hidden;
+  background-color: rgb(36, 36, 36);
+  color-scheme: light only;
+  touch-action: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+}
+
+#appContainer {
+  display: block;
+  outline: none;
+
+  background-color: transparent;
+}
+
+#appCanvas {
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: auto;
+  background-color: black;
+  touch-action: none;
+}
+
+#uiLayer {
+  position: absolute;
+  outline: none;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-color: transparent;
+}

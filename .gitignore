@@ -1,0 +1,46 @@
+# dependencies & build
+node_modules/
+.next/
+dist/
+build/
+out/
+.vercel/
+.cache/
+coverage/
+
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]serSettings/
+*.unitypackage
+*.apk
+*.aab
+
+# secrets & env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# large media & archives (kept out of git)
+*.zip
+*.rar
+*.7z
+*.dmg
+*.iso
+*.mov
+*.mp4
+*.webm
+*.psd
+*.tsbuildinfo

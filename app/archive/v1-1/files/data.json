@@ -1,0 +1,124 @@
+{
+  "appData": {
+    "stages": [
+      {
+        "cols": 7,
+        "rows": 6,
+        "grid": [
+          "# # # # # # #",
+          "# > . . . . #",
+          "# . . . . . #",
+          "# . . T . . #",
+          "# . . . . . #",
+          "# # # # # # #"
+        ],
+        "inventoryMirrors": 1
+      },
+      {
+        "cols": 7,
+        "rows": 7,
+        "grid": [
+          "# # # # # # #",
+          "# > . . # . #",
+          "# # . . # . #",
+          "# . . . . . #",
+          "# . # # # . #",
+          "# . . . T . #",
+          "# # # # # # #"
+        ],
+        "inventoryMirrors": 2
+      },
+      {
+        "cols": 8,
+        "rows": 8,
+        "grid": [
+          "# # # # # # # #",
+          "# . . T . . . #",
+          "# . # # # # . #",
+          "# . . . . . . #",
+          "# . # # # # . #",
+          "# . . . . . . #",
+          "# . . . > . . #",
+          "# # # # # # # #"
+        ],
+        "inventoryMirrors": 3
+      }
+    ]
+  },
+  "textData": {
+    "default_language": "ko",
+    "supported_multiple_languages": false,
+    "need_update": false,
+    "ko": {
+      "title": "레이저 리플렉트",
+      "instructionsTitle": "게임 방법",
+      "instructions": [
+        "인벤토리의 거울을 맵으로 드래그하여 배치하세요.",
+        "배치된 거울을 클릭하면 반사 각도가 바뀝니다.",
+        "빛의 방향을 꺾어 목표 지점을 명중시키세요!"
+      ],
+      "startBtn": "게임 시작",
+      "playBtn": "플레이",
+      "stageClear": "스테이지 클리어!",
+      "nextBtn": "다음 스테이지",
+      "allClear": "모든 스테이지 클리어!",
+      "restartBtn": "처음부터 다시",
+      "inventoryLabel": "남은 거울"
+    },
+    "en": {},
+    "zh": {},
+    "ja": {},
+    "es": {},
+    "fr": {}
+  },
+  "assetList": {
+    "images": [],
+    "sounds": [
+      {
+        "id": "bgm",
+        "file_path": "assets/bgm.mp3?v=1779208172",
+        "duration_seconds": 60,
+        "volume": 0.5,
+        "isBackgroundMusic": true,
+        "isNewAsset": false,
+        "description": "Mysterious sci-fi puzzle background music"
+      },
+      {
+        "id": "place",
+        "file_path": "assets/place.mp3?v=1779208172",
+        "duration_seconds": 1,
+        "volume": 0.8,
+        "isBackgroundMusic": false,
+        "isNewAsset": false,
+        "description": "Tech click or glass placing sound"
+      },
+      {
+        "id": "rotate",
+        "file_path": "assets/rotate.mp3?v=1779208172",
+        "duration_seconds": 1,
+        "volume": 0.8,
+        "isBackgroundMusic": false,
+        "isNewAsset": false,
+        "description": "Short mechanical sliding or swish sound"
+      },
+      {
+        "id": "hit",
+        "file_path": "assets/hit.mp3?v=1779208172",
+        "duration_seconds": 2,
+        "volume": 0.8,
+        "isBackgroundMusic": false,
+        "isNewAsset": false,
+        "description": "Laser activating a target crystal, humming noise"
+      },
+      {
+        "id": "clear",
+        "file_path": "assets/clear.mp3?v=1779208172",
+        "duration_seconds": 3,
+        "volume": 1.0,
+        "isBackgroundMusic": false,
+        "isNewAsset": false,
+        "description": "Triumphant electronic success sound"
+      }
+    ]
+  }
+}

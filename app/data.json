@@ -1,0 +1,99 @@
+{
+  "appData": {
+    "totalRounds": 3,
+    "stagesPerRound": 2,
+    "teams": [
+      {
+        "name": "파랑팀",
+        "color": "#3b6fd4"
+      },
+      {
+        "name": "빨강팀",
+        "color": "#d8453b"
+      }
+    ],
+    "scoring": {
+      "perfect": 10,
+      "partial": 5,
+      "fail": 0
+    },
+    "difficulties": {
+      "EASY": {
+        "label": "EASY",
+        "sub": "초급",
+        "rotateStep": 90,
+        "cols": 6,
+        "rows": 6,
+        "mirrors": 2,
+        "walls": 4,
+        "forbidden": 0,
+        "movers": 0,
+        "time": 60,
+        "predict": 8
+      },
+      "NORMAL": {
+        "label": "NORMAL",
+        "sub": "중급",
+        "rotateStep": 90,
+        "cols": 7,
+        "rows": 7,
+        "mirrors": 3,
+        "walls": 7,
+        "forbidden": 1,
+        "movers": 0,
+        "time": 50,
+        "predict": 7
+      },
+      "HARD": {
+        "label": "HARD",
+        "sub": "고급",
+        "rotateStep": 90,
+        "cols": 7,
+        "rows": 8,
+        "mirrors": 4,
+        "walls": 9,
+        "forbidden": 2,
+        "movers": 1,
+        "time": 45,
+        "predict": 6
+      }
+    }
+  },
+  "textData": {
+    "default_language": "ko",
+    "supported_multiple_languages": false,
+    "need_update": false,
+    "ko": {
+      "title": "레이저 리플렉트",
+      "tagline": "거울을 돌려 레이저를 목표에 맞춰라!",
+      "startBtn": "게임 시작",
+      "doneBtn": "완료",
+      "nextBtn": "다음 스테이지",
+      "finalNextBtn": "최종 결과 보기",
+      "restartBtn": "다시 하기",
+      "stageStart": "STAGE START",
+      "predictHint": "맵을 살펴보고 레이저가 갈 경로를 예측하세요 · 아직 조작 불가",
+      "manipulateHint": "거울을 터치해 회전시키세요 · 다 맞췄으면 [완료]",
+      "fireHint": "레이저 발사!",
+      "perfectTitle": "완벽 성공!",
+      "partialTitle": "부분 성공",
+      "failTitle": "실패",
+      "perfectDesc": "모든 거울을 사용해 목표에 정확히 도달했습니다.",
+      "partialDesc": "목표에는 도달했지만 거울을 모두 사용하지 못했습니다.",
+      "failOut": "레이저가 맵 밖으로 빠져나갔습니다.",
+      "failBlock": "레이저가 장애물에 막혔습니다.",
+      "failForbidden": "레이저가 금지 구역에 닿아 실패했습니다.",
+      "failMiss": "레이저가 목표 지점에 도달하지 못했습니다.",
+      "failBackface": "거울 뒷면에 맞았습니다! 반사면이 빔을 향하도록 돌려주세요.",
+      "gameOver": "게임 종료!",
+      "winSuffix": " 승리!",
+      "draw": "무승부!",
+      "turnSuffix": " 차례",
+      "roundLabel": "라운드"
+    }
+  },
+  "assetList": {
+    "images": [],
+    "sounds": []
+  }
+}

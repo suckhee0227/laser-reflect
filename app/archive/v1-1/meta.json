@@ -1,0 +1,205 @@
+{
+  "version": "v1-1",
+  "version_id": "bfd52352-0567-4e00-ab9f-98586bf52256",
+  "parent": null,
+  "parent_id": null,
+  "timestamp": "2026-05-19T16:30:14.304565+00:00",
+  "summary": "레이저 리플렉트 게임을 하려고 합니다. 판 위에 레이저 모양이 레이저를 쏘는데 목표지점 까지 가야합니다. 2d 판 위에 방해물이 이서 직선으로 갈 수 없으니 거울을 설치하여 굴절 시켜 레이저의 끝이 목표에 닿으면 게임 승리",
+  "changes": [
+    {
+      "name": "main.js",
+      "path": "main.js",
+      "type": "Add"
+    },
+    {
+      "name": "style.css",
+      "path": "style.css",
+      "type": "Add"
+    },
+    {
+      "name": "data.json",
+      "path": "data.json",
+      "type": "Add"
+    },
+    {
+      "name": "main.ts",
+      "path": "main.ts",
+      "type": "Add"
+    },
+    {
+      "name": "app.ts",
+      "path": "app.ts",
+      "type": "Add"
+    },
+    {
+      "name": "appHelper.ts",
+      "path": "appHelper.ts",
+      "type": "Add"
+    },
+    {
+      "name": "tsconfig.json",
+      "path": "tsconfig.json",
+      "type": "Add"
+    },
+    {
+      "name": "index.html",
+      "path": "index.html",
+      "type": "Add"
+    },
+    {
+      "name": "thumbnail.webp",
+      "path": "assets/thumbnail.webp",
+      "type": "Add"
+    },
+    {
+      "name": "bgm.mp3",
+      "path": "assets/bgm.mp3",
+      "type": "Add"
+    },
+    {
+      "name": "thumbnail_256.webp",
+      "path": "assets/thumbnail_256.webp",
+      "type": "Add"
+    },
+    {
+      "name": "thumbnail_128.webp",
+      "path": "assets/thumbnail_128.webp",
+      "type": "Add"
+    },
+    {
+      "name": "thumbnail_64.webp",
+      "path": "assets/thumbnail_64.webp",
+      "type": "Add"
+    },
+    {
+      "name": "icon.webp",
+      "path": "assets/icon.webp",
+      "type": "Add"
+    },
+    {
+      "name": "clear.mp3",
+      "path": "assets/clear.mp3",
+      "type": "Add"
+    },
+    {
+      "name": "rotate.mp3",
+      "path": "assets/rotate.mp3",
+      "type": "Add"
+    },
+    {
+      "name": "hit.mp3",
+      "path": "assets/hit.mp3",
+      "type": "Add"
+    },
+    {
+      "name": "place.mp3",
+      "path": "assets/place.mp3",
+      "type": "Add"
+    },
+    {
+      "name": "thumbnail_512.webp",
+      "path": "assets/thumbnail_512.webp",
+      "type": "Add"
+    }
+  ],
+  "no_changes": [],
+  "file_index": {
+    "app.ts": {
+      "hash": "d836aa2e8fa0b229b3c555dc0babf64bdcedb556c111fe975f653ff8c51da64a",
+      "size": 22577,
+      "mtime": 1779208208.697
+    },
+    "main.js": {
+      "hash": "eaff4d45b67f259fa26aa5aa4ab67a605cce1f70949d184c5d7269fb56ccdf89",
+      "size": 175218,
+      "mtime": 1779208214.281
+    },
+    "main.ts": {
+      "hash": "bb854eedcafcb798e1a5e010af89e3cf951fa86f53d9c08a9cdc128ccaaed047",
+      "size": 5099,
+      "mtime": 1779098628.0
+    },
+    "data.json": {
+      "hash": "9dae19374e552e023f65f8c9817bfa5474fafc7af76b232a7dcab08dee4f2153",
+      "size": 3250,
+      "mtime": 1779208172.912
+    },
+    "style.css": {
+      "hash": "9441d16d7ca5dc327f1d95eff470b99d2eac975e25e134c98ad94332e1c95480",
+      "size": 754,
+      "mtime": 1779098628.0
+    },
+    "index.html": {
+      "hash": "0f57e329738172cfd0a7bda4003e050b56dcbdb086f05c1a2101f1ee3eabbb90",
+      "size": 13358,
+      "mtime": 1779098628.0
+    },
+    "appHelper.ts": {
+      "hash": "9a227b6e481f1ca1ab8eb95c594edeee22bace907eac463a45c98adaaeac71e4",
+      "size": 7345,
+      "mtime": 1779098628.0
+    },
+    "tsconfig.json": {
+      "hash": "2d4ae3b301fae02ce25a2fd5a7b3ef2ba161ecb983a496dd5294ab5ec7f9b01c",
+      "size": 684,
+      "mtime": 1779098628.0
+    },
+    "assets/bgm.mp3": {
+      "hash": "5df4abe595abfc266c7dc9fda5d7c554660a2bc50b24e3db6f1f78d809cf9b06",
+      "size": 1363153,
+      "mtime": 1779208172.648
+    },
+    "assets/hit.mp3": {
+      "hash": "4d1c3142ca4fdfc50f4f27732361f34d14a6a9f2357ee9ae2acb58b3345cc837",
+      "size": 19821,
+      "mtime": 1779208172.851
+    },
+    "assets/clear.mp3": {
+      "hash": "c04530184d596bef1ad53edc693e9eede0ec62186768c42f50f5c8aad9b7800a",
+      "size": 46698,
+      "mtime": 1779208172.881
+    },
+    "assets/icon.webp": {
+      "hash": "45f0ec6f62092921d350bd7c7a705929e5049426ebd9f3eae03077f5b6e3477a",
+      "size": 1008,
+      "mtime": 1779098628.0
+    },
+    "assets/place.mp3": {
+      "hash": "f7c20b4a641cad4b0009692b7d2170fe4d3010b62a8b318669794041f197405f",
+      "size": 17609,
+      "mtime": 1779208172.744
+    },
+    "assets/rotate.mp3": {
+      "hash": "0db5bc5c53b4fe526e4170d5c4f14fdaf560b20133dc61466d321d8045449f18",
+      "size": 102858,
+      "mtime": 1779208172.771
+    },
+    "assets/thumbnail.webp": {
+      "hash": "f0a028030439b3de74847e70722921d51572c8628797c873cec2e79f61144b53",
+      "size": 7446,
+      "mtime": 1779098628.0
+    },
+    "assets/thumbnail_64.webp": {
+      "hash": "37aa54138742116bb16cd2b00f2ee52cb3a5cb26c3a5875378231a172aa41d89",
+      "size": 414,
+      "mtime": 1779098628.0
+    },
+    "assets/thumbnail_128.webp": {
+      "hash": "dcce43aa961a0f646043ac50fd60898ab98cd69fe3192039c403a65c7adc48a8",
+      "size": 954,
+      "mtime": 1779098628.0
+    },
+    "assets/thumbnail_256.webp": {
+      "hash": "610092cf019589b2259d8330fc9acd2629c494ea56fb69f810c925b5e6c33db2",
+      "size": 1924,
+      "mtime": 1779098628.0
+    },
+    "assets/thumbnail_512.webp": {
+      "hash": "e18d3524c493ecd9287563d17ea55bdb978557d7a9c7c83580501e905e69848b",
+      "size": 3862,
+      "mtime": 1779098628.0
+    }
+  },
+  "engine_version": "0.3.1",
+  "request_id": "e3b99644-c1ab-42f5-a8c0-54f46cfb18ad"
+}

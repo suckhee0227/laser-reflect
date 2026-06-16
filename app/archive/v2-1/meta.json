@@ -1,0 +1,205 @@
+{
+  "version": "v2-1",
+  "version_id": "e70dd87e-986b-47ff-9730-a51d09be19e2",
+  "parent": "v1-1",
+  "parent_id": "bfd52352-0567-4e00-ab9f-98586bf52256",
+  "timestamp": "2026-05-19T22:49:39.375058+00:00",
+  "summary": "기획안 기반 팀 대결 퍼즐로 게임 재작성 (3R x 2stage, 난이도별 절차적 생성, HARD 이동장애물)",
+  "changes": [
+    {
+      "name": "app.ts",
+      "path": "app.ts",
+      "type": "Change"
+    },
+    {
+      "name": "appHelper.ts",
+      "path": "appHelper.ts",
+      "type": "Change"
+    },
+    {
+      "name": "bgm.mp3",
+      "path": "assets/bgm.mp3",
+      "type": "Change"
+    },
+    {
+      "name": "clear.mp3",
+      "path": "assets/clear.mp3",
+      "type": "Change"
+    },
+    {
+      "name": "hit.mp3",
+      "path": "assets/hit.mp3",
+      "type": "Change"
+    },
+    {
+      "name": "icon.webp",
+      "path": "assets/icon.webp",
+      "type": "Change"
+    },
+    {
+      "name": "place.mp3",
+      "path": "assets/place.mp3",
+      "type": "Change"
+    },
+    {
+      "name": "rotate.mp3",
+      "path": "assets/rotate.mp3",
+      "type": "Change"
+    },
+    {
+      "name": "thumbnail.webp",
+      "path": "assets/thumbnail.webp",
+      "type": "Change"
+    },
+    {
+      "name": "thumbnail_128.webp",
+      "path": "assets/thumbnail_128.webp",
+      "type": "Change"
+    },
+    {
+      "name": "thumbnail_256.webp",
+      "path": "assets/thumbnail_256.webp",
+      "type": "Change"
+    },
+    {
+      "name": "thumbnail_512.webp",
+      "path": "assets/thumbnail_512.webp",
+      "type": "Change"
+    },
+    {
+      "name": "thumbnail_64.webp",
+      "path": "assets/thumbnail_64.webp",
+      "type": "Change"
+    },
+    {
+      "name": "data.json",
+      "path": "data.json",
+      "type": "Change"
+    },
+    {
+      "name": "index.html",
+      "path": "index.html",
+      "type": "Change"
+    },
+    {
+      "name": "main.js",
+      "path": "main.js",
+      "type": "Change"
+    },
+    {
+      "name": "main.ts",
+      "path": "main.ts",
+      "type": "Change"
+    },
+    {
+      "name": "style.css",
+      "path": "style.css",
+      "type": "Change"
+    },
+    {
+      "name": "tsconfig.json",
+      "path": "tsconfig.json",
+      "type": "Change"
+    }
+  ],
+  "no_changes": [],
+  "file_index": {
+    "app.ts": {
+      "hash": "e61b4dbef44cfecec71c5829904ec8ac3a2389d60b2a654c926e3eeb27c8f750",
+      "size": 47716,
+      "mtime": 1779230750.363948
+    },
+    "appHelper.ts": {
+      "hash": "9a227b6e481f1ca1ab8eb95c594edeee22bace907eac463a45c98adaaeac71e4",
+      "size": 7345,
+      "mtime": 1779066228.0
+    },
+    "assets/bgm.mp3": {
+      "hash": "5df4abe595abfc266c7dc9fda5d7c554660a2bc50b24e3db6f1f78d809cf9b06",
+      "size": 1363153,
+      "mtime": 1779175772.0
+    },
+    "assets/clear.mp3": {
+      "hash": "c04530184d596bef1ad53edc693e9eede0ec62186768c42f50f5c8aad9b7800a",
+      "size": 46698,
+      "mtime": 1779175772.0
+    },
+    "assets/hit.mp3": {
+      "hash": "4d1c3142ca4fdfc50f4f27732361f34d14a6a9f2357ee9ae2acb58b3345cc837",
+      "size": 19821,
+      "mtime": 1779175772.0
+    },
+    "assets/icon.webp": {
+      "hash": "45f0ec6f62092921d350bd7c7a705929e5049426ebd9f3eae03077f5b6e3477a",
+      "size": 1008,
+      "mtime": 1779066228.0
+    },
+    "assets/place.mp3": {
+      "hash": "f7c20b4a641cad4b0009692b7d2170fe4d3010b62a8b318669794041f197405f",
+      "size": 17609,
+      "mtime": 1779175772.0
+    },
+    "assets/rotate.mp3": {
+      "hash": "0db5bc5c53b4fe526e4170d5c4f14fdaf560b20133dc61466d321d8045449f18",
+      "size": 102858,
+      "mtime": 1779175772.0
+    },
+    "assets/thumbnail.webp": {
+      "hash": "f0a028030439b3de74847e70722921d51572c8628797c873cec2e79f61144b53",
+      "size": 7446,
+      "mtime": 1779066228.0
+    },
+    "assets/thumbnail_128.webp": {
+      "hash": "dcce43aa961a0f646043ac50fd60898ab98cd69fe3192039c403a65c7adc48a8",
+      "size": 954,
+      "mtime": 1779066228.0
+    },
+    "assets/thumbnail_256.webp": {
+      "hash": "610092cf019589b2259d8330fc9acd2629c494ea56fb69f810c925b5e6c33db2",
+      "size": 1924,
+      "mtime": 1779066228.0
+    },
+    "assets/thumbnail_512.webp": {
+      "hash": "e18d3524c493ecd9287563d17ea55bdb978557d7a9c7c83580501e905e69848b",
+      "size": 3862,
+      "mtime": 1779066228.0
+    },
+    "assets/thumbnail_64.webp": {
+      "hash": "37aa54138742116bb16cd2b00f2ee52cb3a5cb26c3a5875378231a172aa41d89",
+      "size": 414,
+      "mtime": 1779066228.0
+    },
+    "data.json": {
+      "hash": "37925ce36a63f77530a33c9073cc8dcdbd5d0e06bf813765a5fc5135ec3bed20",
+      "size": 2422,
+      "mtime": 1779230760.590821
+    },
+    "index.html": {
+      "hash": "0f57e329738172cfd0a7bda4003e050b56dcbdb086f05c1a2101f1ee3eabbb90",
+      "size": 13358,
+      "mtime": 1779066228.0
+    },
+    "main.js": {
+      "hash": "d526229383dc39f4bb39a366e6e5d2912a393718ed91b7f5dc6f1dd9ce9696e8",
+      "size": 49889,
+      "mtime": 1779230953.322907
+    },
+    "main.ts": {
+      "hash": "bb854eedcafcb798e1a5e010af89e3cf951fa86f53d9c08a9cdc128ccaaed047",
+      "size": 5099,
+      "mtime": 1779066228.0
+    },
+    "style.css": {
+      "hash": "9441d16d7ca5dc327f1d95eff470b99d2eac975e25e134c98ad94332e1c95480",
+      "size": 754,
+      "mtime": 1779066228.0
+    },
+    "tsconfig.json": {
+      "hash": "2d4ae3b301fae02ce25a2fd5a7b3ef2ba161ecb983a496dd5294ab5ec7f9b01c",
+      "size": 684,
+      "mtime": 1779066228.0
+    }
+  },
+  "engine_version": "0.3.1",
+  "request_id": "b38d7481-2d87-4a4a-bc60-cde09be8f2f7"
+}

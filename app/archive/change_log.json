@@ -1,0 +1,26 @@
+{
+  "versions": [
+    {
+      "version": "v1-1",
+      "version_id": "bfd52352-0567-4e00-ab9f-98586bf52256",
+      "parent": null,
+      "parent_id": null,
+      "timestamp": "2026-05-19T16:30:14.304565+00:00",
+      "summary": "레이저 리플렉트 게임을 하려고 합니다. 판 위에 레이저 모양이 레이저를 쏘는데 목표지점 까지 가야합니다. 2d 판 위에 방해물이 이서 직선으로 갈 수 없으니 거울을 설치하여 굴절 시켜 레이저의 끝이 목표에 닿으면 게임 승리",
+      "is_latest": false,
+      "is_current": false,
+      "is_published": false
+    },
+    {
+      "version": "v2-1",
+      "version_id": "e70dd87e-986b-47ff-9730-a51d09be19e2",
+      "parent": "v1-1",
+      "parent_id": "bfd52352-0567-4e00-ab9f-98586bf52256",
+      "timestamp": "2026-05-19T22:49:39.375058+00:00",
+      "summary": "기획안 기반 팀 대결 퍼즐로 게임 재작성 (3R x 2stage, 난이도별 절차적 생성, HARD 이동장애물)",
+      "is_latest": true,
+      "is_current": true,
+      "is_published": false
+    }
+  ]
+}
